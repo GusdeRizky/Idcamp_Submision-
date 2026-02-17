@@ -61,7 +61,7 @@ st.markdown("---")
 
 tab1, tab2, tab3 = st.tabs(["Cuaca & Musim", "Pola Pengguna", "Analisis Suhu (Binning)"])
 
-#TAB 1 Cuaca dan Musim
+#TAB 1 Cuaca 
 with tab1:
     st.subheader("Pengaruh Musim dan Cuaca Terhadap Penyewaan")
     
