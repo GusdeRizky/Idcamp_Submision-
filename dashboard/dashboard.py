@@ -58,7 +58,7 @@ st.markdown("---")
 
 tab1, tab2, tab3 = st.tabs(["Cuaca & Musim", "Pola Pengguna", "Analisis Suhu (Binning)"])
 
-#TAB 1: Cuaca dan Musim
+#TAB 1 Cuaca dan Musim
 with tab1:
     st.subheader("Pengaruh Musim dan Cuaca Terhadap Penyewaan")
     
@@ -84,7 +84,7 @@ with tab1:
     
     st.pyplot(fig)
 
-#TAB 2: Perilaku Pengguna
+#TAB 2 Perilaku Pengguna
 with tab2:
     st.subheader("Perbandingan Pengguna Casual vs Registered")
     
@@ -103,7 +103,7 @@ with tab2:
     
     st.pyplot(fig2)
 
-#TAB 3: Analisis Lanjutan (Binning)
+#TAB 3 Analisis Lanjutan (Binning)
 with tab3:
     st.subheader("Analisis Lanjutan: Penyewaan Berdasarkan Kategori Suhu")
     
